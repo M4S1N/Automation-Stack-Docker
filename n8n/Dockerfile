@@ -1,8 +1,8 @@
 FROM n8nio/n8n
 
 ENV N8N_BASIC_AUTH_ACTIVE=true \
-    N8N_BASIC_AUTH_USER=admin \
-    N8N_BASIC_AUTH_PASSWORD=admin \
+    N8N_BASIC_AUTH_USER=miguel.asin98@gmail.com \
+    N8N_BASIC_AUTH_PASSWORD=P@ssword1 \
     N8N_HOST=n8n \
     N8N_PORT=6789 \
     N8N_SECURE_COOKIE=false \
