@@ -1,15 +1,3 @@
-FROM n8nio/n8n
-
-ENV N8N_BASIC_AUTH_ACTIVE=true \
-    N8N_BASIC_AUTH_USER=miguel.asin98@gmail.com \
-    N8N_BASIC_AUTH_PASSWORD=P@ssword1 \
-    N8N_HOST=n8n \
-    N8N_PORT=6789 \
-    N8N_SECURE_COOKIE=false \
-    N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true \
-    N8n_RUNNERS_ENABLED=true \
-    N8N_LOG_LEVEL=debug \
-    N8N_ENCRYPTION_KEY=CpEMNDGDE9cRi8KP1mM0rkDLBIyAUPH3 \
-    WEBHOOK_URL=https://n8n.onrender.com
+FROM n8nio/n8n:latest
 
 EXPOSE 6789
