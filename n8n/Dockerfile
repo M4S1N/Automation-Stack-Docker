@@ -10,6 +10,6 @@ ENV N8N_BASIC_AUTH_ACTIVE=true \
     N8n_RUNNERS_ENABLED=true \
     N8N_LOG_LEVEL=debug \
     N8N_ENCRYPTION_KEY=CpEMNDGDE9cRi8KP1mM0rkDLBIyAUPH3 \
-    WEBHOOK_URL=http://localhost:6789
+    WEBHOOK_URL=https://n8n.onrender.com
 
 EXPOSE 6789
