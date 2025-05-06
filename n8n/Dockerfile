@@ -1,3 +1,3 @@
 FROM n8nio/n8n:latest
 
-EXPOSE 6789
+EXPOSE 3000
